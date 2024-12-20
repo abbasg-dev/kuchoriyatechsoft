@@ -1,0 +1,60 @@
+.root {
+  margin: 10px;
+  width: 376px;
+  height: 253px;
+  background: #cd4b03;
+  box-shadow: 0 0 10px rgba(131, 131, 131, 0.25);
+  border-radius: 10px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.textContent {
+  margin-top: 80px;
+  text-align: center;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+@media screen and (max-width: 480px) {
+  .root {
+    width: 240px;
+    height: 170px;
+  }
+  .textContent {
+    margin-top: 41px;
+  }
+  .subtitle {
+    font-size: unset !important;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .root {
+    width: 240px;
+    height: 170px;
+  }
+  .textContent {
+    margin-top: 0;
+  }
+  .subtitle {
+    font-size: unset !important;
+  }
+}
+
+.title {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: inherit;
+}
+
+.subtitle {
+  display: block;
+  color: white;
+  font-size: 20px;
+  cursor: inherit;
+}

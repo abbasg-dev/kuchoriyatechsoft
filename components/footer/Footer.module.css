@@ -1,0 +1,38 @@
+.footerGridContainer {
+
+    justify-content: center;
+    display: inline-grid;
+    background-color: var(--main-color);
+    color: white;
+    padding: 60px 40px 20px 60px;
+}
+
+.footerCol1{
+    padding-top:40px;
+    padding-right: 40px;
+}
+
+.footerCol3{
+    text-align: center;
+    justify-content: center;
+    margin: auto auto auto 0;
+}
+
+.footerGridItem {
+    font-size: 16px;
+}
+.copyright {
+    margin-top:20px;
+    visibility: visible;
+}
+@media screen and (max-width: 767px){
+    .centerMobile{
+        text-align: center;
+    }
+    .copyright {
+        visibility: hidden;
+    }
+    .footerCol3 {
+        margin-top:30px;
+    }
+}

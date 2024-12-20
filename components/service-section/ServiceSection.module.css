@@ -1,0 +1,30 @@
+.serviceCardContainerRoot {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.serviceCardContainer {
+  background: #cd4b03;
+  display: flex;
+  height: 220px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1239px) {
+  .serviceCardContainer {
+    height: 440px;
+  }
+}
+
+@media only screen and (max-width: 619px) {
+  .serviceCardContainer {
+    height: 1230px;
+  }
+}

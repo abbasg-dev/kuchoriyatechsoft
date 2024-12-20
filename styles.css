@@ -1,0 +1,24 @@
+:root {
+  --main-color: #ef6d1c;
+  --light-blue: #cd4a01;
+}
+
+ul :hover {
+  text-decoration-line: underline;
+  color: var(--light-blue);
+}
+
+li {
+  cursor: pointer;
+  margin: 10px 14px;
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #443f3f;
+}
+a {
+  color: #443f3f;
+  text-decoration: none;
+}

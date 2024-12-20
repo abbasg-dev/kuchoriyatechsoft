@@ -1,0 +1,40 @@
+.sideBarTrigger{
+    background-color: var(--main-color);
+    margin: 10px auto auto;
+    padding:10px;
+    border-radius: 10px 10px 0 0;
+}
+.triggerName{
+    margin-left: 10px;
+    color:#FFFAF0;
+}
+.triggerItems{
+    background-color: var(--main-color);
+    border-radius: 0 0 10px 10px;
+}
+.triggerItem{
+    padding:10px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    border-bottom:1px solid white;
+}
+.triggerItemFirst{
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+    padding:10px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.triggerItemLast{
+    padding:10px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.mobileNav {
+    width: 70%;
+    text-align: center;
+    margin: 10px auto;
+}
